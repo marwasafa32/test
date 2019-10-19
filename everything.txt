@@ -1,0 +1,441 @@
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Documents
+$ ls
+'Add-in Express'/
+ animation/
+'Chapter 10. Park.Zuo.Pelot.3rd Edition.2016.pdf'
+'Chapter 11. Park.Zuo.Pelot.3rd Edition.2016.pdf'
+'Chapter 14. Park. Zuo. Pelot. 3rd Edition. Cash Flow with Inflation.2016.pdf'
+'Chapter 3. Park.Zuo.Pelot..3rd Edition.2016.pdf'
+'Chapter 4. Park.Zuo.Pelot.3rd Edition.2016.pdf'
+'Custom Office Templates'/
+ desktop.ini
+ Doc1.docx
+'Econ 209. Ch 4.GDP Overhead. 2019.pdf'
+'Econ 209. Ch5 and 10. 2019.pdf'
+'Econ 209.Ch 1. Overhead. Hubbard. 2019.pdf'
+ EmotiBot-20190328T161437Z-001.zip
+ emotions.c
+ ENEL453/
+ energy.xlsx
+'Formula sheet for midterm.pdf'
+ LTspiceXVII/
+'MARWA SAFA.docx'
+ MATLAB/
+'My Games'/
+'My Music'@
+'My Pictures'@
+'My Tableau Repository'/
+'My Videos'@
+ SimpleIDE/
+'theme project.xlsx'
+'Visual Studio 2017'/
+'Where are my files.lnk'*
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Documents
+$ touch hello_world
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Documents
+$ ls
+'Add-in Express'/
+ animation/
+'Chapter 10. Park.Zuo.Pelot.3rd Edition.2016.pdf'
+'Chapter 11. Park.Zuo.Pelot.3rd Edition.2016.pdf'
+'Chapter 14. Park. Zuo. Pelot. 3rd Edition. Cash Flow with Inflation.2016.pdf'
+'Chapter 3. Park.Zuo.Pelot..3rd Edition.2016.pdf'
+'Chapter 4. Park.Zuo.Pelot.3rd Edition.2016.pdf'
+'Custom Office Templates'/
+ desktop.ini
+ Doc1.docx
+'Econ 209. Ch 4.GDP Overhead. 2019.pdf'
+'Econ 209. Ch5 and 10. 2019.pdf'
+'Econ 209.Ch 1. Overhead. Hubbard. 2019.pdf'
+ EmotiBot-20190328T161437Z-001.zip
+ emotions.c
+ ENEL453/
+ energy.xlsx
+'Formula sheet for midterm.pdf'
+ hello_world
+ LTspiceXVII/
+'MARWA SAFA.docx'
+ MATLAB/
+'My Games'/
+'My Music'@
+'My Pictures'@
+'My Tableau Repository'/
+'My Videos'@
+ SimpleIDE/
+'theme project.xlsx'
+'Visual Studio 2017'/
+'Where are my files.lnk'*
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Documents
+$ cd ~/Workspace
+bash: cd: /c/Users/marwa/Workspace: No such file or directory
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Documents
+$ cd ~/Desktop/Workspace
+bash: cd: /c/Users/marwa/Desktop/Workspace: No such file or directory
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Documents
+$ cd ~/Desktop/Workspace
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace
+$ git init my_proj
+Initialized empty Git repository in C:/Users/marwa/Desktop/Workspace/my_proj/.git/
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace
+$ cd my_proj
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ touch test.txt
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git add test.txt
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test.txt
+
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'marwa@DESKTOP-4DK74VR.(none)')
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit -m "Initial Commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'marwa@DESKTOP-4DK74VR.(none)')
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'marwa@DESKTOP-4DK74VR.(none)')
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git config --global user.email "marwasafa32@hotmail.com"
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git config --global user.name "marwasafa32"
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit
+[master (root-commit) 0def51b] initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git remote add origin https://github.com/marwasafa32/test
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git push --set-upstream origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 216 bytes | 216.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/marwasafa32/test
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git add test.txt
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ get commit
+bash: get: command not found
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit
+[master b2adb23] initial commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git push --set-upstream origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 246 bytes | 82.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/marwasafa32/test
+   0def51b..b2adb23  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git add test.txt
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit
+[master f34183a] initial commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git push --set-upstream origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 247 bytes | 49.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/marwasafa32/test
+   b2adb23..f34183a  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git add test.txt
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit -m "second commit"
+[master 9cef81c] second commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git push master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git push --set-upstream origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 251 bytes | 83.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/marwasafa32/test
+   f34183a..9cef81c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git branch
+* master
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ gitk --all &
+[1] 1513
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git add test.txt
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit
+[master 1dc351b] intitial commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 255 bytes | 127.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/marwasafa32/test
+   9cef81c..1dc351b  master -> master
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git add test.txt
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git commit -m "second commit"
+[master 5e7d80f] second commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 257 bytes | 128.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/marwasafa32/test
+   1dc351b..5e7d80f  master -> master
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ gitk --all &
+[2] 1551
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git checkout -b my_branch
+Switched to a new branch 'my_branch'
+[1]-  Done                    gitk --all
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git add test.txt
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git commit -m "commit in a branch"
+[my_branch b3246a1] commit in a branch
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ gitk --all &
+[3] 1567
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+[2]-  Done                    gitk --all
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git checkout my_branch
+Switched to branch 'my_branch'
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git submodule add https://github.com/marwasafa32/test
+Cloning into 'C:/Users/marwa/Desktop/Workspace/my_proj/test'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 18 (delta 0), reused 18 (delta 0), pack-reused 0
+Unpacking objects: 100% (18/18), done.
+warning: LF will be replaced by CRLF in .gitmodules.
+The file will have its original line endings in your working directory
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git add git_training
+fatal: pathspec 'git_training' did not match any files
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git add test
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git status
+On branch my_branch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitmodules
+        new file:   test
+
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git checkout master
+Switched to branch 'master'
+A       .gitmodules
+A       test
+Your branch is up to date with 'origin/master'.
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git submodule add https://github.com/marwasafa32/test
+'test' already exists in the index
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git checkout my_branch
+Switched to branch 'my_branch'
+A       .gitmodules
+A       test
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git commit "pls help"
+error: pathspec 'pls help' did not match any file(s) known to git
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git commit -m "pls help"
+[my_branch a7a62ef] pls help
+ 2 files changed, 4 insertions(+)
+ create mode 100644 .gitmodules
+ create mode 160000 test
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ gitk --all &
+[4] 1712
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git push
+fatal: The current branch my_branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin my_branch
+
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git checkout
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (my_branch)
+$ git checkout master
+warning: unable to rmdir 'test': Directory not empty
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ git push
+Everything up-to-date
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$ touch everything.txt
+
+marwa@DESKTOP-4DK74VR MINGW64 ~/Desktop/Workspace/my_proj (master)
+$
